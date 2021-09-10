@@ -58,6 +58,8 @@ public class Main {
         ArrayList<String> listaCodigos = crw.carregarRecursos();
 
         String codigoHTML = listaCodigos.get(0);
+        codigoHTML += listaCodigos.get(1);
+        codigoHTML += listaCodigos.get(2);
 
         //mapa do alfabeto
         char[] alfabeto = new char[11];
